@@ -5,37 +5,37 @@ import classnames from "classnames";
 
 const users = [
   {
-    name: "Antoine Lefèvre",
+    name: "Sovan DY",
     comment:
-      "Effective and flexible. This marketing company is always adaptable to market innovations, maintaining high performance with advertising strategies.",
+      "A wonderful site for online shopping! Excellent customer service throughout the entire process. The team is knowledgeable and goes above and beyond at every turn. I’d recommend their FEG hair growth spray.",
     image: "/image/users/user-1.jpg",
     rating: 5,
   },
   {
-    name: "Yuna Hyun",
-    comment: "Outstanding team! Their dedication to our brand's success is truly commendable.",
+    name: "Berlinda De la Cruz",
+    comment:
+      "Very good product, just used only 8 days so can not see the visible results but i feel comfortable and fresh when applied, no side effects. 4 stars because delivery is a little bit slow.",
     image: "/image/users/user-2.jpg",
+    rating: 4,
+  },
+  {
+    name: "Venus Amanda",
+    comment:
+      "I got a hair serum from FEG and I’m very satisfied. They are high-quality and worth the money. The store also offered free shipping at that price so that’s a plus!",
+    image: "/image/users/user-3.png",
     rating: 5,
   },
   {
-    name: "Ethan Miller",
-    comment:
-      "All the projects I have worked with them have been extremely effective. They are experienced and very knowledgeable about the tiktok market.",
-    image: "/image/users/user-3.jpg",
+    name: "Jane Amatsu",
+    comment: "Pricing is fair and transparent - definitely value for money.",
+    image: "/image/users/user-4.png",
     rating: 5,
   },
   {
-    name: "Ava Johnson",
+    name: "Jennifer Abraham",
     comment:
-      "Good measurement and reporting capabilities. They not only implement strategies but also provide detailed reporting and clear performance evaluations.",
-    image: "/image/users/user-4.jpg",
-    rating: 5,
-  },
-  {
-    name: "Mei Ling",
-    comment:
-      "They are very knowledgeable about the market and at the forefront of the trends of the tiktok platform. No collaborative project between us has failed, all have been successful.",
-    image: "/image/users/user-5.jpg",
+      "The product quality is consistently outstanding, exceeding my expectations every time. Also I was completely impressed with their professionalism and customer service. 5 stars absolutely.",
+    image: "/image/users/user-5.png",
     rating: 5,
   },
 ];
@@ -44,14 +44,18 @@ export default function Home() {
   return (
     <div>
       <div className="relative w-full h-screen">
-        <video className="brightness-90" autoPlay={true} muted loop>
-          <source src="/image/banners/banner-0.mp4" type="video/mp4"></source>
-        </video>
+        <Image
+          src="/image/banners/banner-0.jpg"
+          alt="solatene"
+          fill
+          className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
+        />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">winxpink</h3>
+            <h3 className="text-white uppercase text-heading">solatene</h3>
             <p className="leading-6 text-center text-white">
-              Beyond Boundaries, Beyond Trends – Marketing Excellence Defined.
+              We put our customers as the first priority. It’s our job every day to make every important aspect of the
+              customer experience a little bit better.
             </p>
           </div>
         </div>
@@ -60,7 +64,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-1.jpg"
-            alt="winxpink"
+            alt="solatene"
             fill
             className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
           />
@@ -70,9 +74,7 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Empower your brand's journey with our dynamic marketing services. From strategic Facebook campaigns to
-                  captivating TikTok content and impactful YouTube strategies, we specialize in crafting a digital
-                  presence that resonates.
+                  Marketing’s job is never done. It’s about perpetual motion. We must continue to innovate every day.
                 </p>
                 <Link href="/our-services" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">OUR SERVICES</button>
@@ -86,7 +88,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-2.jpg"
-            alt="winxpink"
+            alt="solatene"
             fill
             className="object-cover object-center w-full h-full -z-10 brightness-[0.9]"
           />
@@ -96,8 +98,7 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Decade-Long Journey: Pioneering Marketing Solutions Since 2017. Our Commitment, Your Success – A
-                  Decade of Expertise in Marketing Innovation.
+                  The best marketing doesn't feel like marketing.
                 </p>
                 <Link href="/about" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">ABOUT US</button>

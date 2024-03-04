@@ -13,11 +13,10 @@ const Footer = () => {
     <>
       <Modal open={showModalContact} setOpen={setShowModalContact} title="Contact us">
         <p className="text-xl leading-8">
-          Get in touch with us! Your questions, feedback, and inquiries matter. We're here to assist you. Reach out and
-          let's connect for a seamless experience:
+          Please contact us via email if you need support or advice. Our staff will contact you as soon as possible.
           <br />
-          <Link className="text-blue-500 underline" href="mailto:winxpink.contact@gmail.com" target="_blank">
-            winxpink.contact@gmail.com
+          <Link className="text-blue-500 underline" href="mailto:hello.solatene@gmail.com" target="_blank">
+            hello.solatene@gmail.com
           </Link>
         </p>
       </Modal>
@@ -50,8 +49,8 @@ const Footer = () => {
         <h3 className="mb-1.5 text-lg font-bold">EASY RETURN & EXCHANGE PROCESS</h3>
         <p>
           Firstly, email (So We Can Send You Your Receipt) customer care at{" "}
-          <Link className="text-blue-500 underline" href="mailto:winxpink.contact@gmail.com" target="_blank">
-            winxpink.contact@gmail.com
+          <Link className="text-blue-500 underline" href="mailto:hello.solatene@gmail.com" target="_blank">
+            hello.solatene@gmail.com
           </Link>{" "}
           or call our support team. Our team is available to talk to you 9am-5pm, Monday to Friday! Include in your
           initial request how you wish to proceed (return or exchange) and we will walk you through the process of which
